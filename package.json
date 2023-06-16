@@ -1,0 +1,39 @@
+{
+  "name": "mongo",
+  "version": "1.0.0",
+  "description": "run `npm init` to start the node project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "dev": "NODE_ENV=development : node backend/dev-server.js",
+    "parcelstart": "parcel src/index.html"
+  },
+  "devDependencies": {
+    "@types/jquery-editable-select": "^2.2.0",
+    "parcel-bundler": "^1.12.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UWcse482a-2020/DNS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UWcse482a-2020/DNS/issues"
+  },
+  "homepage": "https://github.com/UWcse482a-2020/DNS#readme",
+  "dependencies": {
+    "dotenv": "^16.1.4",
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "jquery-editable-select": "^2.2.5",
+    "mongodb": "^3.5.7",
+    "popper.js": "^1.16.1",
+    "request": "^2.88.2"
+  },
+  "engines": {
+    "node": "20.2.0"
+  }
+}
